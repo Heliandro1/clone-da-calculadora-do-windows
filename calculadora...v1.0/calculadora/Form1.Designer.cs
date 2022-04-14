@@ -63,6 +63,7 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.button7 = new System.Windows.Forms.Button();
             button5 = new System.Windows.Forms.Button();
             button2 = new System.Windows.Forms.Button();
             button3 = new System.Windows.Forms.Button();
@@ -552,10 +553,23 @@
             // panel2
             // 
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(188, 438);
+            this.panel2.Location = new System.Drawing.Point(188, 215);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(138, 100);
+            this.panel2.Size = new System.Drawing.Size(138, 323);
             this.panel2.TabIndex = 27;
+            // 
+            // button7
+            // 
+            this.button7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button7.BackgroundImage")));
+            this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button7.FlatAppearance.BorderSize = 0;
+            this.button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(93)))), ((int)(((byte)(93)))));
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.Location = new System.Drawing.Point(218, 84);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(46, 42);
+            this.button7.TabIndex = 0;
+            this.button7.UseVisualStyleBackColor = true;
             // 
             // Calculadora
             // 
@@ -564,7 +578,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
             this.ClientSize = new System.Drawing.Size(326, 538);
             this.ControlBox = false;
-            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.button7);
             this.Controls.Add(button6);
             this.Controls.Add(button4);
             this.Controls.Add(button3);
@@ -591,6 +605,7 @@
             this.Controls.Add(this.btn_div);
             this.Controls.Add(this.btn_6);
             this.Controls.Add(this.button1);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -637,6 +652,7 @@
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Button button7;
     }
 }
 
