@@ -7,11 +7,12 @@ namespace calculadora
 {
     public partial class Calculadora : Form
     {
+       
         public Calculadora()
         {
-           
-            InitializeComponent();
-            this.panel1.Visible = false;
+            
+                InitializeComponent();
+            this.panelSide_Menu.Visible = false;
             //this.panel2.Visible = false;
 
 
@@ -45,10 +46,23 @@ namespace calculadora
         {
             this.WindowState = FormWindowState.Minimized;
         }
+
+
+
+
         #endregion
 
-       
+        private void btn_Show_Menu_Click(object sender, EventArgs e)
+        {
+            if (this.panelSide_Menu.Visible == false)
+            {
+                panelSide_Menu.BringToFront();
+                panelSide_Menu.Visible = true;
+                btn_Show_Menu.BringToFront();
 
-      
+            }
+            else
+                panelSide_Menu.Visible = false;
+        }
     }
 }
