@@ -16,3 +16,12 @@ C:\Users\Heliandro\Documents\Visual Studio 2015\Projects\Desktop_Repository\Dev-
 C:\Users\Heliandro\Documents\Visual Studio 2015\Projects\Desktop_Repository\Dev-Desktop-Estudos\calculadora\calculadora\obj\Debug\calculadora.Calculadora.resources
 C:\Users\Heliandro\Documents\Visual Studio 2015\Projects\Desktop_Repository\Dev-Desktop-Estudos\calculadora\calculadora\obj\Debug\calculadora.Properties.Resources.resources
 C:\Users\Heliandro\Documents\Visual Studio 2015\Projects\Desktop_Repository\Dev-Desktop-Estudos\calculadora\calculadora\obj\Debug\calculadora.csproj.GenerateResource.Cache
+C:\Users\Heliandro\Documents\Visual Studio 2015\Projects\Desktop_Repository\clone-da-calculadora-do-windows\calculadora...v1.0\calculadora\bin\Debug\calculadora.exe.config
+C:\Users\Heliandro\Documents\Visual Studio 2015\Projects\Desktop_Repository\clone-da-calculadora-do-windows\calculadora...v1.0\calculadora\obj\Debug\calculadora.exe
+C:\Users\Heliandro\Documents\Visual Studio 2015\Projects\Desktop_Repository\clone-da-calculadora-do-windows\calculadora...v1.0\calculadora\obj\Debug\calculadora.pdb
+C:\Users\Heliandro\Documents\Visual Studio 2015\Projects\Desktop_Repository\clone-da-calculadora-do-windows\calculadora...v1.0\calculadora\bin\Debug\calculadora.exe
+C:\Users\Heliandro\Documents\Visual Studio 2015\Projects\Desktop_Repository\clone-da-calculadora-do-windows\calculadora...v1.0\calculadora\bin\Debug\calculadora.pdb
+C:\Users\Heliandro\Documents\Visual Studio 2015\Projects\Desktop_Repository\clone-da-calculadora-do-windows\calculadora...v1.0\calculadora\obj\Debug\calculadora.csprojResolveAssemblyReference.cache
+C:\Users\Heliandro\Documents\Visual Studio 2015\Projects\Desktop_Repository\clone-da-calculadora-do-windows\calculadora...v1.0\calculadora\obj\Debug\calculadora.Calculadora.resources
+C:\Users\Heliandro\Documents\Visual Studio 2015\Projects\Desktop_Repository\clone-da-calculadora-do-windows\calculadora...v1.0\calculadora\obj\Debug\calculadora.Properties.Resources.resources
+C:\Users\Heliandro\Documents\Visual Studio 2015\Projects\Desktop_Repository\clone-da-calculadora-do-windows\calculadora...v1.0\calculadora\obj\Debug\calculadora.csproj.GenerateResource.Cache

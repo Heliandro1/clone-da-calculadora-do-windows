@@ -30,6 +30,10 @@
         {
             this.components = new System.ComponentModel.Container();
             System.Windows.Forms.Button button5;
+            System.Windows.Forms.Button button2;
+            System.Windows.Forms.Button button3;
+            System.Windows.Forms.Button button4;
+            System.Windows.Forms.Button button6;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Calculadora));
             this.button1 = new System.Windows.Forms.Button();
             this.btn_6 = new System.Windows.Forms.Button();
@@ -56,11 +60,14 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btn_close = new System.Windows.Forms.Button();
             this.textBox_operation = new System.Windows.Forms.TextBox();
-            this.textBox_res = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
             button5 = new System.Windows.Forms.Button();
+            button2 = new System.Windows.Forms.Button();
+            button3 = new System.Windows.Forms.Button();
+            button4 = new System.Windows.Forms.Button();
+            button6 = new System.Windows.Forms.Button();
             this.paneltop.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -72,13 +79,72 @@
             button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             button5.ForeColor = System.Drawing.Color.White;
-            button5.Location = new System.Drawing.Point(86, 269);
+            button5.Location = new System.Drawing.Point(168, 215);
             button5.Name = "button5";
             button5.Size = new System.Drawing.Size(76, 48);
             button5.TabIndex = 4;
             button5.Text = "C";
             button5.UseVisualStyleBackColor = false;
-            button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // button2
+            // 
+            button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            button2.FlatAppearance.BorderSize = 0;
+            button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(93)))), ((int)(((byte)(93)))));
+            button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            button2.ForeColor = System.Drawing.Color.White;
+            button2.Location = new System.Drawing.Point(6, 215);
+            button2.Name = "button2";
+            button2.Size = new System.Drawing.Size(76, 48);
+            button2.TabIndex = 22;
+            button2.Text = "%";
+            button2.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            button3.FlatAppearance.BorderSize = 0;
+            button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(93)))), ((int)(((byte)(93)))));
+            button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            button3.ForeColor = System.Drawing.Color.White;
+            button3.Location = new System.Drawing.Point(167, 269);
+            button3.Name = "button3";
+            button3.Size = new System.Drawing.Size(76, 48);
+            button3.TabIndex = 23;
+            button3.Text = "C";
+            button3.UseVisualStyleBackColor = false;
+            // 
+            // button4
+            // 
+            button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            button4.FlatAppearance.BorderSize = 0;
+            button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(93)))), ((int)(((byte)(93)))));
+            button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            button4.Font = new System.Drawing.Font("Cambria Math", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            button4.ForeColor = System.Drawing.Color.White;
+            button4.Location = new System.Drawing.Point(4, 269);
+            button4.Name = "button4";
+            button4.Size = new System.Drawing.Size(76, 48);
+            button4.TabIndex = 24;
+            button4.Text = "1⁄x ";
+            button4.UseVisualStyleBackColor = false;
+            // 
+            // button6
+            // 
+            button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            button6.FlatAppearance.BorderSize = 0;
+            button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(93)))), ((int)(((byte)(93)))));
+            button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            button6.Font = new System.Drawing.Font("Cambria Math", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            button6.ForeColor = System.Drawing.Color.White;
+            button6.Location = new System.Drawing.Point(86, 269);
+            button6.Name = "button6";
+            button6.Size = new System.Drawing.Size(76, 48);
+            button6.TabIndex = 25;
+            button6.Text = "x";
+            button6.UseVisualStyleBackColor = false;
             // 
             // button1
             // 
@@ -89,13 +155,12 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(4, 269);
+            this.button1.Location = new System.Drawing.Point(86, 215);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(76, 48);
             this.button1.TabIndex = 0;
             this.button1.Text = "CE";
             this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // btn_6
             // 
@@ -112,7 +177,6 @@
             this.btn_6.TabIndex = 1;
             this.btn_6.Text = "6";
             this.btn_6.UseVisualStyleBackColor = false;
-            this.btn_6.Click += new System.EventHandler(this.btn_6_Click);
             // 
             // btn_div
             // 
@@ -131,7 +195,6 @@
             this.btn_div.Text = "÷   ";
             this.btn_div.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btn_div.UseVisualStyleBackColor = false;
-            this.btn_div.Click += new System.EventHandler(this.btn_div_Click);
             // 
             // btn_del
             // 
@@ -144,12 +207,11 @@
             this.btn_del.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_del.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_del.ForeColor = System.Drawing.Color.White;
-            this.btn_del.Location = new System.Drawing.Point(165, 269);
+            this.btn_del.Location = new System.Drawing.Point(247, 215);
             this.btn_del.Name = "btn_del";
             this.btn_del.Size = new System.Drawing.Size(76, 48);
             this.btn_del.TabIndex = 3;
             this.btn_del.UseVisualStyleBackColor = false;
-            this.btn_del.Click += new System.EventHandler(this.btn_del_Click);
             // 
             // btn_1
             // 
@@ -166,7 +228,6 @@
             this.btn_1.TabIndex = 5;
             this.btn_1.Text = "1";
             this.btn_1.UseVisualStyleBackColor = false;
-            this.btn_1.Click += new System.EventHandler(this.btn_1_Click);
             // 
             // btn_7
             // 
@@ -183,7 +244,6 @@
             this.btn_7.TabIndex = 6;
             this.btn_7.Text = "7";
             this.btn_7.UseVisualStyleBackColor = false;
-            this.btn_7.Click += new System.EventHandler(this.btn_7_Click);
             // 
             // btn_8
             // 
@@ -200,7 +260,6 @@
             this.btn_8.TabIndex = 7;
             this.btn_8.Text = "8";
             this.btn_8.UseVisualStyleBackColor = false;
-            this.btn_8.Click += new System.EventHandler(this.btn_8_Click);
             // 
             // btn_3
             // 
@@ -217,7 +276,6 @@
             this.btn_3.TabIndex = 8;
             this.btn_3.Text = "3";
             this.btn_3.UseVisualStyleBackColor = false;
-            this.btn_3.Click += new System.EventHandler(this.btn_3_Click);
             // 
             // btn_dot
             // 
@@ -234,14 +292,12 @@
             this.btn_dot.TabIndex = 9;
             this.btn_dot.Text = ".";
             this.btn_dot.UseVisualStyleBackColor = false;
-            this.btn_dot.Click += new System.EventHandler(this.btn_dot_Click);
             // 
             // btn_equals
             // 
             this.btn_equals.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.btn_equals.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.btn_equals.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(102)))), ((int)(((byte)(111)))));
             this.btn_equals.FlatAppearance.BorderSize = 0;
-            this.btn_equals.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(102)))), ((int)(((byte)(111)))));
             this.btn_equals.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(191)))), ((int)(((byte)(211)))));
             this.btn_equals.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_equals.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -252,7 +308,6 @@
             this.btn_equals.TabIndex = 10;
             this.btn_equals.Text = "=";
             this.btn_equals.UseVisualStyleBackColor = false;
-            this.btn_equals.Click += new System.EventHandler(this.btn_equals_Click);
             // 
             // btn_plus
             // 
@@ -270,7 +325,6 @@
             this.btn_plus.TabIndex = 11;
             this.btn_plus.Text = "+";
             this.btn_plus.UseVisualStyleBackColor = false;
-            this.btn_plus.Click += new System.EventHandler(this.btn_plus_Click);
             // 
             // btn_null
             // 
@@ -287,7 +341,6 @@
             this.btn_null.TabIndex = 12;
             this.btn_null.Text = "0";
             this.btn_null.UseVisualStyleBackColor = false;
-            this.btn_null.Click += new System.EventHandler(this.btn_null_Click);
             // 
             // btn_men
             // 
@@ -305,7 +358,6 @@
             this.btn_men.TabIndex = 13;
             this.btn_men.Text = "-";
             this.btn_men.UseVisualStyleBackColor = false;
-            this.btn_men.Click += new System.EventHandler(this.btn_men_Click);
             // 
             // btn_mul
             // 
@@ -323,7 +375,6 @@
             this.btn_mul.TabIndex = 14;
             this.btn_mul.Text = "X";
             this.btn_mul.UseVisualStyleBackColor = false;
-            this.btn_mul.Click += new System.EventHandler(this.btn_mul_Click);
             // 
             // btn_9
             // 
@@ -340,7 +391,6 @@
             this.btn_9.TabIndex = 15;
             this.btn_9.Text = "9";
             this.btn_9.UseVisualStyleBackColor = false;
-            this.btn_9.Click += new System.EventHandler(this.btn_9_Click);
             // 
             // btn_2
             // 
@@ -357,7 +407,6 @@
             this.btn_2.TabIndex = 16;
             this.btn_2.Text = "2";
             this.btn_2.UseVisualStyleBackColor = false;
-            this.btn_2.Click += new System.EventHandler(this.btn_2_Click);
             // 
             // btn_negate
             // 
@@ -390,7 +439,6 @@
             this.btn_5.TabIndex = 18;
             this.btn_5.Text = "5";
             this.btn_5.UseVisualStyleBackColor = false;
-            this.btn_5.Click += new System.EventHandler(this.btn_5_Click);
             // 
             // btn_4
             // 
@@ -407,7 +455,6 @@
             this.btn_4.TabIndex = 19;
             this.btn_4.Text = "4";
             this.btn_4.UseVisualStyleBackColor = false;
-            this.btn_4.Click += new System.EventHandler(this.btn_4_Click);
             // 
             // paneltop
             // 
@@ -416,9 +463,9 @@
             this.paneltop.Controls.Add(this.label1);
             this.paneltop.Controls.Add(this.btn_close);
             this.paneltop.Dock = System.Windows.Forms.DockStyle.Top;
-            this.paneltop.Location = new System.Drawing.Point(0, 0);
+            this.paneltop.Location = new System.Drawing.Point(188, 0);
             this.paneltop.Name = "paneltop";
-            this.paneltop.Size = new System.Drawing.Size(326, 38);
+            this.paneltop.Size = new System.Drawing.Size(138, 38);
             this.paneltop.TabIndex = 20;
             this.paneltop.MouseDown += new System.Windows.Forms.MouseEventHandler(this.paneltop_MouseDown);
             // 
@@ -430,7 +477,7 @@
             this.btn_min.FlatAppearance.BorderSize = 0;
             this.btn_min.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(93)))), ((int)(((byte)(93)))));
             this.btn_min.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_min.Location = new System.Drawing.Point(194, 0);
+            this.btn_min.Location = new System.Drawing.Point(6, 0);
             this.btn_min.Name = "btn_min";
             this.btn_min.Size = new System.Drawing.Size(44, 38);
             this.btn_min.TabIndex = 22;
@@ -445,7 +492,7 @@
             this.btn_max.FlatAppearance.BorderSize = 0;
             this.btn_max.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(93)))), ((int)(((byte)(93)))));
             this.btn_max.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_max.Location = new System.Drawing.Point(238, 0);
+            this.btn_max.Location = new System.Drawing.Point(50, 0);
             this.btn_max.Name = "btn_max";
             this.btn_max.Size = new System.Drawing.Size(44, 38);
             this.btn_max.TabIndex = 23;
@@ -455,11 +502,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(3, 11);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(63, 13);
+            this.label1.Size = new System.Drawing.Size(73, 15);
             this.label1.TabIndex = 0;
             this.label1.Text = "Calculadora";
             // 
@@ -471,7 +518,7 @@
             this.btn_close.FlatAppearance.BorderSize = 0;
             this.btn_close.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.btn_close.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_close.Location = new System.Drawing.Point(282, 0);
+            this.btn_close.Location = new System.Drawing.Point(94, 0);
             this.btn_close.Name = "btn_close";
             this.btn_close.Size = new System.Drawing.Size(44, 38);
             this.btn_close.TabIndex = 21;
@@ -486,55 +533,29 @@
             this.textBox_operation.Cursor = System.Windows.Forms.Cursors.Default;
             this.textBox_operation.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox_operation.ForeColor = System.Drawing.Color.White;
-            this.textBox_operation.Location = new System.Drawing.Point(16, 84);
+            this.textBox_operation.Location = new System.Drawing.Point(6, 154);
             this.textBox_operation.Name = "textBox_operation";
+            this.textBox_operation.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.textBox_operation.ShortcutsEnabled = false;
             this.textBox_operation.Size = new System.Drawing.Size(308, 28);
             this.textBox_operation.TabIndex = 21;
             this.textBox_operation.Text = "0";
-            this.textBox_operation.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
             // 
-            // textBox_res
+            // panel1
             // 
-            this.textBox_res.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.textBox_res.BackColor = System.Drawing.Color.White;
-            this.textBox_res.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox_res.Enabled = false;
-            this.textBox_res.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_res.ForeColor = System.Drawing.Color.Black;
-            this.textBox_res.Location = new System.Drawing.Point(106, 204);
-            this.textBox_res.Name = "textBox_res";
-            this.textBox_res.Size = new System.Drawing.Size(208, 28);
-            this.textBox_res.TabIndex = 22;
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(188, 538);
+            this.panel1.TabIndex = 26;
             // 
-            // label2
+            // panel2
             // 
-            this.label2.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(12, 61);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(87, 20);
-            this.label2.TabIndex = 23;
-            this.label2.Text = "Operação";
-            // 
-            // label3
-            // 
-            this.label3.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(105, 181);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(91, 20);
-            this.label3.TabIndex = 24;
-            this.label3.Text = "Resultado";
-            // 
-            // timer1
-            // 
-            this.timer1.Interval = 1000;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel2.Location = new System.Drawing.Point(188, 438);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(138, 100);
+            this.panel2.TabIndex = 27;
             // 
             // Calculadora
             // 
@@ -543,9 +564,11 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
             this.ClientSize = new System.Drawing.Size(326, 538);
             this.ControlBox = false;
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox_res);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(button6);
+            this.Controls.Add(button4);
+            this.Controls.Add(button3);
+            this.Controls.Add(button2);
             this.Controls.Add(this.textBox_operation);
             this.Controls.Add(this.paneltop);
             this.Controls.Add(this.btn_4);
@@ -568,6 +591,7 @@
             this.Controls.Add(this.btn_div);
             this.Controls.Add(this.btn_6);
             this.Controls.Add(this.button1);
+            this.Controls.Add(this.panel1);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -610,10 +634,9 @@
         private System.Windows.Forms.Button btn_max;
         private System.Windows.Forms.Button btn_close;
         private System.Windows.Forms.TextBox textBox_operation;
-        private System.Windows.Forms.TextBox textBox_res;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel2;
     }
 }
 
